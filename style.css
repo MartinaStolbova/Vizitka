@@ -1,0 +1,116 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body{
+    font-family: 'Nunito', sans-serif; 
+}
+
+h1{
+    font-weight: bold;
+    font-size:36px;
+    color:#d63031;
+    margin:0;
+}
+.jméno{
+   padding-top: 30px;
+   padding-left: 30px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    left:475px;
+    bottom:375px;
+    border:3px solid #fff;
+    border-radius: 50%;
+
+}
+
+body {
+    background-color: #b2bec3;
+
+}
+.box {
+    background-color:#fff;
+    width:550px;
+    height:440px;
+    margin:0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #000;
+    position:relative
+
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px
+    
+}
+
+ul{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.odkazy ul{
+    position:absolute;
+    right:30px;
+    bottom: 30px;
+}
+
+.Twitter {
+    color:#fff;
+    background-color:#1da1f2;
+    text-decoration: none;
+    width:490px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:5px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.Twitter:hover{
+    background-color:  #0b7bc1;
+}
+
+.Facebook{
+    color:#fff;
+    background-color: #3b5998;
+    text-decoration: none;
+    width: 490px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:5px;
+    text-align:center;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Facebook:hover{
+    background-color:#2b406e;
+}
+/*
+BARVY:
+šedá na pozadí stránky:		 #b2bec3
+červená na hlavní nadpis:  #d63031
+
+tlačítko Twitter:					 #1da1f2
+tlačítko Twitter aktivní:	 #0b7bc1
+
+tlačítko Facebook:				 #3b5998
+tlačítko Facebook aktivní: #2b406e
+*/
+
