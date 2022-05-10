@@ -57,30 +57,7 @@ ul{
     margin-bottom: 30px;
 }
 
-.button {
-
-}
-.Twitter {
-    color:#fff;
-    background-color:#1da1f2;
-    text-decoration: none;
-    width:490px;
-    font-weight: bold;
-    border-radius:5px;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-}
-.Twitter:hover{
-    background-color:  #0b7bc1;
-}
-
-.Facebook{
-    color:#fff;
-    background-color: #3b5998;
+.Twitter,.Facebook {
     text-decoration: none;
     width: 490px;
     font-weight: bold;
@@ -91,6 +68,21 @@ ul{
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
+
+}
+.Twitter {
+    color:#fff;
+    background-color:#1da1f2;
+    margin-bottom: 5px;
+}
+.Twitter:hover{
+    background-color:  #0b7bc1;
+}
+
+.Facebook{
+    color:#fff;
+    background-color: #3b5998;
+ 
 }
 
 .Facebook:hover{
